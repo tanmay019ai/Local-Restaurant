@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban bites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bokor&family=Bungee+Spice&family=Honk&family=Sofia&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video id="video" autoplay muted loop>
+        <source src="background.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="navbar">
+        <div id="Welcome">
+            <i class="fa-solid fa-utensils" id="icon"></i>
+           Welcome to Urban bites
+        </div>
+        <div class="Menubar">
+            <h1>Lattes</h1>
+            <div class="dropdown-list" >
+            <ul>
+                <li>
+                    <img src="cappucino.jpeg">Cappuccino</li>
+                <li>
+                   <img src="iced latte.jpeg"><br>Iced Latte</li>
+                <li>
+                    <img src="iced-matcha-latte.webp"> Latte</li>
+            </ul>
+            </div>
+        </div>
+        <div id="Contact">
+            <h3>Order Now</h3>
+            <h3>8471048881</h3>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+     <div class="services">
+        <div class="tag1"><i class="fa-solid fa-bell-concierge"></i><br><a></a>
+            </div>
+    </div>
+    <div class="delivery">
+        <video autoplay loop muted  src="Delivery on Time.mp4" type="video/mp4"></video>
+    </div>
+    <div class="meals">
+        <img src="meal.png">
+        <div class="tag2"><a>Meals</a></div>
+        <div class="slider">
+            <div class="slides">
+                <img src="south.jpeg" alt="Image 1">
+                <img src="north.jpeg" alt="Image 2">
+                <img src="chinese.jpeg" alt="Image 3">
+            </div>
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div>
+        </div>
+    </main>
+    <footer>
+
+        <div class="rights">
+           <div class="first"><h1 >@All rights Reserved</h1></div>
+           <div class="form">
+            <h1 id="second">Enter your details to get regular updates</h1>
+            <form onsubmit=" return data()" action="submit.html">
+            <input type="text" placeholder="NAME"id="n1">
+            <input type="number" placeholder="Phone number" id="n2">
+            <input type="email" placeholder="email"id="n3">
+            <input type="submit" id="n4">
+            </form>
+        </div>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
